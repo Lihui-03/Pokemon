@@ -10,6 +10,10 @@ Product checked for auto-buy:
 
 By default the bot only watches stock and posts Discord alerts. It does not place an order until you turn that on.
 
+# Single Command
+python -m pip install -r requirements.txt && python -m playwright install chromium && python login.py
+
+
 ## What it does
 
 1. Checks Target (and other watched stores) on a timer.
